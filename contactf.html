@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Made by Rameshwar Mishra -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="project.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav>
+        <img src="floodlogo.jpeg" class="logo">
+        <div class="navigation">
+            <ul>
+                <a id="menu-close" class="fa fa-times"></a>
+                <li><a href="frontpage.html">Home</a></li>
+                <li><a href="frontpage.html">About</a></li>
+                <li><a href="newspage.html">Blog</a></li>
+                <li><a href="newspage.html">News</a></li>
+                <li><a href="contactf.html">Contact</a></li>
+            </ul>
+            <img id="menu-btn" src="burger-bar.png" alt="">
+        </div>
+    </nav>
+    <!-- HOME -->
+    <section id="about-home">
+        <h2>Contact Us/</h2>
+    </section>
+    <section id="contact">
+        <div class="getin">
+            <h2>Get in touch</h2>
+            <p>Looking for help? fill the form and start a new adventure. </p>
+
+            <div class="getin-details">
+                <h3>Headquaters</h3>
+                <div>
+                    <a class="fa fa-home get"></a>
+                    <p>50 lanka, BHU , varanasi 221005</p>
+                </div>
+                <h3>Phone</h3>
+                <div>
+                    <a class="fa fa-phone-alt get"></a>
+                    <p>
+                        (+642) 245 356 432 <br> (+420) 336 476 328
+                    </p>
+                </div>
+                <h3>Support</h3>
+                <div>
+                    <a class="fa fa-envelope-open-text get"></a>
+                    <p>e-learning@support.com <br> help12@gmail.com</p>
+                </div>
+                <h3>Follow Us</h3>
+                <div class="pro-link">
+                    <a class="fa fa-facebook-f"></a>
+                    <a class="fa fa-instagram"></a>
+                    <a class="fa fa-linkedin"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="form">
+            <h4>Let's Connect</h4>
+            <p>Any try help contact her.</p>
+            <div class="form-row">
+                <input type="text" placeholder="Your Name">
+                <input type="text" placeholder="Email">
+            </div>
+            <div class="form-col">
+                <input type="text" placeholder="Subject">
+            </div>
+            <div class="form-col">
+                <textarea name="" id="" cols="30" rows="8" placeholder="How can we help?"></textarea>
+            </div>
+            <div class="form-col">
+                <button>Send Message</button>
+            </div>
+        </div>
+    </section>
+    <section id="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d230816.57430478276!2d82.85102143072803!3d25.320696442921964!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398e2db76febcf4d%3A0x68131710853ff0b5!2sVaranasi%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1673561669342!5m2!1sen!2sin"
+            style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <!-- Footer -->
+    <footer>
+        <div class="footer-col">
+            <h3>Regions</h3>
+            <li>Africa</li>
+            <li>Americas</li>
+            <li>Eastern Mediterranean</li>
+            <li>Europe</li>
+            <li>South-East Asia</li>
+            <li>Western Pacific</li>
+
+        </div>
+        <div class="footer-col">
+            <h3>Policies</h3>
+            <li>cyber security</li>
+            <li>Ethics</li>
+            <li>Premissions and Licensing</li>
+            <li>Terms of use</li>
+            <li>Guides</li>
+        </div>
+        <div class="footer-col">
+            <h3>Abouts us</h3>
+            <li>Careers</li>
+            <li>Library</li>
+            <li>Procurement</li>
+            <li>Publications</li>
+            <li>Frequently asked Questions</li>
+            <li>Contact us</li>
+        </div>
+        <div class="footer-col">
+            <h3>Newsletter</h3>
+            <p>You can trust us. we only send promo offers,</p>
+            <div class="subscribe">
+                <input type="text" placeholder="Your Email address">
+                <a href="#" class="yellow">SUBSCRIBE</a>
+            </div>
+            <div class="copyright">
+                <p>Copyright 02022 All rights reserved | This template is made by Rameshwar Mishra</p>
+                <br>
+                <!-- Made by Rameshwar Mishra -->
+
+                <div class="pro-link"></div>
+                <a class="fa fa-facebook-f"></a>
+                <a class="fa fa-instagram"></a>
+                <a class="fa fa-linkedin"></a>
+
+            </div>
+        </div>
+    </footer>
+    <script>
+        $('#menu-btn').click(function() {
+            $('nav .navigation ul').addClass('active')
+        });
+        $('#menu-close').click(function() {
+            $('nav .navigation ul').removeClass('active')
+        });
+    </script>
+</body>
+
+</html>
